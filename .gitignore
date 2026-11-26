@@ -1,0 +1,14 @@
+build/
+*.keystore
+*.apk
+signing/
+releases/
+!downloads/*.apk
+*.jks
+*.p12
+*.pem
+*.key
+*-backup-*.json
+node_modules/
+.DS_Store
+Thumbs.db

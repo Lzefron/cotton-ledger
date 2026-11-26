@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#1d554a"><meta name="description" content="Your offline yarn business companion. Products, orders, customers and profit in one place.">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <title>Cotton Ledger</title><link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="icon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <aside class="sidebar"><a href="#dashboard" class="brand"><span class="brandmark" id="brand-icon"></span><span>Cotton<span class="brand-light">Ledger</span></span></a><div class="nav-label">YOUR WORKSPACE</div><nav id="navigation" aria-label="Main navigation"></nav><div class="sidebar-foot"><span class="local-dot"></span><div><strong>Saved on this device</strong><small>Your business stays yours.</small></div></div></aside>
+  <div class="workspace"><header class="topbar"><div class="mobile-brand">Cotton Ledger</div><span class="top-context">A little order. A lot of clarity.</span><button class="button quiet" id="backup-open"><span data-icon="backup"></span><span>Backup & data</span></button></header><main id="main" tabindex="-1"></main><footer class="main-footer">Made for your growing yarn business. <span>Offline · Private · Simple</span></footer></div>
+  <nav id="mobile-navigation" class="mobile-navigation" aria-label="Mobile navigation"></nav>
+  <dialog id="modal"><div id="modal-content"></div></dialog><div id="toast" role="status" aria-live="polite"></div>
+  <script type="module" src="app.mjs"></script>
+</body></html>
